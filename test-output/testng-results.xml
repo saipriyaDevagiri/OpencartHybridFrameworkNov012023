@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-16T16:01:29 IST" name="OpenCartSuite" finished-at="2023-11-16T16:02:15 IST" duration-ms="45606">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T16:01:29 IST" name="OpenCartTest" finished-at="2023-11-16T16:02:15 IST" duration-ms="45606">
+      <class name="com.qa.opencart.testcase.LoginPageTest">
+        <test-method is-config="true" signature="commonSetUp(java.lang.String)[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:29 IST" name="commonSetUp" finished-at="2023-11-16T16:01:35 IST" duration-ms="5635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSetUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:35 IST" name="beforeClass" finished-at="2023-11-16T16:01:40 IST" duration-ms="5146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:40 IST" name="beforeMethod" finished-at="2023-11-16T16:01:40 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLoginUrl()[pri:1, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:40 IST" name="verifyLoginUrl" description="TC_01_Verify Login Url" finished-at="2023-11-16T16:01:40 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUrl -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:40 IST" name="beforeMethod" finished-at="2023-11-16T16:01:40 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLoginPageTitle()[pri:2, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:40 IST" name="verifyLoginPageTitle" description="TC_02_Verify Login page title" finished-at="2023-11-16T16:01:40 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:40 IST" name="beforeMethod" finished-at="2023-11-16T16:01:41 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLoginPageElementTest()[pri:3, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:41 IST" name="verifyLoginPageElementTest" description="TC_03_verifying the login page elements" finished-at="2023-11-16T16:01:41 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageElementTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:41 IST" name="beforeMethod" finished-at="2023-11-16T16:01:41 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="navigateToRegistrationPageTest()[pri:4, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:41 IST" name="navigateToRegistrationPageTest" description="TC_04_Navigate to registration page from login" finished-at="2023-11-16T16:01:45 IST" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegistrationPageTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:45 IST" name="beforeMethod" finished-at="2023-11-16T16:01:45 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="navigateToForgetPasswordPageTest()[pri:5, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:45 IST" name="navigateToForgetPasswordPageTest" description="TC_05_Navigate to forgot password page from login" finished-at="2023-11-16T16:01:52 IST" duration-ms="7270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForgetPasswordPageTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:52 IST" name="beforeMethod" finished-at="2023-11-16T16:01:52 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="emptyCredentialsLoginTest()[pri:6, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:01:52 IST" name="emptyCredentialsLoginTest" description="TC_06_Empty Credentials login to OpenCart" finished-at="2023-11-16T16:02:00 IST" duration-ms="7653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentialsLoginTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:02:00 IST" name="beforeMethod" finished-at="2023-11-16T16:02:00 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLoginOperation()[pri:7, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:02:00 IST" name="doLoginOperation" description="TC_07_Happypath Do Login Operations" finished-at="2023-11-16T16:02:08 IST" duration-ms="7718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginOperation -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:02:08 IST" name="beforeMethod" finished-at="2023-11-16T16:02:08 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logoutTest()[pri:8, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:02:08 IST" name="logoutTest" description="logout test" finished-at="2023-11-16T16:02:14 IST" depends-on-methods="com.qa.opencart.testcase.LoginPageTest.doLoginOperation" duration-ms="5923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="commonTearDown()[pri:0, instance:com.qa.opencart.testcase.LoginPageTest@7c0da600]" started-at="2023-11-16T16:02:14 IST" name="commonTearDown" finished-at="2023-11-16T16:02:15 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonTearDown -->
+      </class> <!-- com.qa.opencart.testcase.LoginPageTest -->
+    </test> <!-- OpenCartTest -->
+  </suite> <!-- OpenCartSuite -->
+</testng-results>
